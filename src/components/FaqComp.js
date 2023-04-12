@@ -36,7 +36,9 @@ const FaqComp = () => {
           <Col data-aos="fade-up" data-aos-delay="500">
             <Accordion>
               <Accordion.Item eventKey="1">
-                <Accordion.Header>Apakah Tempatnya Nyaman?</Accordion.Header>
+                <Accordion.Header>
+                  Jasa apa saja yang tersedia?
+                </Accordion.Header>
                 <Accordion.Body>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -53,7 +55,9 @@ const FaqComp = () => {
           <Col data-aos="fade-up" data-aos-delay="600">
             <Accordion>
               <Accordion.Item eventKey="2">
-                <Accordion.Header>Apakah Ada Wifinya?</Accordion.Header>
+                <Accordion.Header>
+                  Berapa Lama Deadline Pengiriman Project?
+                </Accordion.Header>
                 <Accordion.Body>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -71,7 +75,7 @@ const FaqComp = () => {
             <Accordion>
               <Accordion.Item eventKey="3">
                 <Accordion.Header>
-                  Bagaimana Lingkungan di Sekitarnya?
+                  Berapa Banyak Revisi Yang Bisa Dilakukan?
                 </Accordion.Header>
                 <Accordion.Body>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -127,9 +131,7 @@ const FaqComp = () => {
           <Col data-aos="fade-up" data-aos-delay="1000">
             <Accordion>
               <Accordion.Item eventKey="6">
-                <Accordion.Header>
-                  Berapa Kapasitas Maksimal Penginap?
-                </Accordion.Header>
+                <Accordion.Header>Berapa Harganya?</Accordion.Header>
                 <Accordion.Body>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -147,7 +149,7 @@ const FaqComp = () => {
             <Accordion>
               <Accordion.Item eventKey="7">
                 <Accordion.Header>
-                  Apakah Cocok Untuk Anak-Anak?
+                  Bagaimana Jika Pengiriman Project Telat?
                 </Accordion.Header>
                 <Accordion.Body>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

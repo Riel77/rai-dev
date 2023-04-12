@@ -1,17 +1,22 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import Gallery1 from "../assets/img/gallery/gallery-1.jpg";
-import Gallery2 from "../assets/img/gallery/gallery-2.jpg";
-import Gallery3 from "../assets/img/gallery/gallery-3.jpg";
-import Gallery4 from "../assets/img/gallery/gallery-4.jpg";
-import Gallery5 from "../assets/img/gallery/gallery-5.jpg";
-import Gallery6 from "../assets/img/gallery/gallery-6.jpg";
+import Gallery1 from "../assets/img/gallery/1.jpg";
+import Gallery2 from "../assets/img/gallery/2.jpg";
+import Gallery3 from "../assets/img/gallery/3.jpg";
+import Gallery4 from "../assets/img/gallery/4.jpg";
+import Gallery5 from "../assets/img/gallery/5.jpg";
+import Gallery6 from "../assets/img/gallery/6.jpg";
 
 const GalleryComp = () => {
   return (
     <div className="gallery min-vh-100 d-flex align-items-center" id="gallery">
       <Container>
+        <Row className="mb-5">
+          <h2 className="text-center fw-bold" data-aos="fade-up">
+            Sample Design
+          </h2>
+        </Row>
         <Row className="row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-4">
           <Col>
             <img
