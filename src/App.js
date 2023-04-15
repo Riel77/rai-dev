@@ -7,7 +7,7 @@ import FooterComp from "./components/FooterComp";
 import OurTeam from "./components/OurTeam";
 import Content from "./components/ContentComp";
 import KontakKami from "./components/KontakKami";
-import Counter from "./components/Counter";
+// import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       <OurTeam />
       <FaqComp />
       <KontakKami />
-      <Counter />
+      {/* <Counter /> */}
       {/* Content */}
 
       <FooterComp />
