@@ -8,10 +8,10 @@ const FaqComp = () => {
         <Row className="mb-5">
           <Col>
             <h2 className="text-center fw-bold" data-aos="fade-up">
-              Yang Biasa Ditanyakan
+              FAQ
             </h2>
             <p className="text-center" data-aos="fade-up" data-aos-delay="200">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Pertanyaan-pertanyaan yang biasa ditanyakan
             </p>
           </Col>
         </Row>
@@ -21,14 +21,10 @@ const FaqComp = () => {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Bagaimana Cara Ordernya?</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Membuka menu Order dan memilih paket yang tersedia sesuai
+                  kebutuhan, dan jelaskan secara singkat tema website yang ingin
+                  dibuat. Tim kami akan memeriksa dan menghubungi Anda untuk
+                  proses lebih lanjut.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -40,14 +36,8 @@ const FaqComp = () => {
                   Jasa apa saja yang tersedia?
                 </Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Mulai dari UI/UX Design baik itu mockup saja, Front-End dengan
+                  ReactJS dan Bootstrap, dan Back-End dengan NodeJS.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -59,14 +49,8 @@ const FaqComp = () => {
                   Berapa Lama Deadline Pengiriman Project?
                 </Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Deadline pengerjaan tergantung dari paket yang dipilih dalam
+                  menu Order, tiap Paket mempunyai deadline nya masing-masing.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -78,14 +62,8 @@ const FaqComp = () => {
                   Berapa Banyak Revisi Yang Bisa Dilakukan?
                 </Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Revisi tergantung dari paket yang dipilih, mulai dari 1-9x
+                  revisi.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -97,14 +75,8 @@ const FaqComp = () => {
                   Sudah Beroperasi Berapa Lama?
                 </Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  RAI Dev sudah beroperasi selama 1 Tahun 5 Bulan, mulai dari
+                  November 2021
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -116,14 +88,9 @@ const FaqComp = () => {
                   Apakah Sudah Terverifikasi Dengan Baik?
                 </Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Staff dan programmer kami sudah memiliki sertikasi keahlian
+                  dalam bidangnya masing-masing, sehingga tidak perlu khawatir
+                  mengenai kualitas produk kami.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -133,14 +100,9 @@ const FaqComp = () => {
               <Accordion.Item eventKey="6">
                 <Accordion.Header>Berapa Harganya?</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Harga tergantung dari paket yang dipilih, mulai dari
+                  Rp.500.000 sampai dengan harga tertentu tergantung dari paket
+                  atau project yang dibuat.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -152,14 +114,9 @@ const FaqComp = () => {
                   Bagaimana Jika Pengiriman Project Telat?
                 </Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Pengiriman telat bisa dikarenakan banyak nya revisi, banyak
+                  nya pesanan, namun tim akan memprioritaskan dalam pengerjaan
+                  dan mengirimkan project sebelum deadline.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

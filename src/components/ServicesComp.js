@@ -14,7 +14,10 @@ const servicesComp = () => {
               Services
             </h1>
             <p className="text-center" data-aos="fade-up" data-aos-delay="200">
-              Lorem ipsum dolor sit amet consectetur.
+              Kami berusaha menjadi penyedia layanan 'One Stop Solution' untuk
+              kebutuhan website anda. Jasa web design kami sudah termasuk
+              Pembuatan, Admin/Maintenance, Promo Website/SEO dan
+              Domain/Hosting.
             </p>
           </Col>
         </Row>
@@ -26,7 +29,10 @@ const servicesComp = () => {
           >
             <i class="fa-solid fa-coins fs-2 mb-4"></i>
             <h5 className="fw-bold">Harga Terjangkau</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>
+              Harga terjangkau bagi startup-startup baru yang menginginkan
+              sebuah website tanpa pengurangan kualitas
+            </p>
           </Col>
           <Col
             className="text-center py-5 px-3"
@@ -35,7 +41,11 @@ const servicesComp = () => {
           >
             <i class="fa-solid fa-thumbs-up fs-2 mb-4"></i>
             <h5 className="fw-bold">Fasilitas Terbaik</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>
+              Menggunakan teknologi terkini dalam proses pembuatan sehingga
+              hasil akhir website menjadi menarik, dinamis dan mudah
+              dikembangkan kembali
+            </p>
           </Col>
           <Col
             className="text-center py-5 px-3"
@@ -44,7 +54,11 @@ const servicesComp = () => {
           >
             <i class="fa-sharp fa-solid fa-shield-halved fs-2 mb-4"></i>
             <h5 className="fw-bold">Tersertifikasi</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>
+              Staff dan programmer kami sudah memiliki sertikasi keahlian dalam
+              bidangnya masing-masing, sehingga tidak perlu khawattir mengenai
+              kualitas produk kami.
+            </p>
           </Col>
         </Row>
       </Container>

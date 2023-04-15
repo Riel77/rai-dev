@@ -2,28 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 const NavbarComp = () => {
-  const [changeColor, setChangecolor] = useState(false);
-
-  const changeBackgroundColor = () => {
-    if (window.scrollY > 600) {
-      setChangecolor(true);
-    } else {
-      setChangecolor(false);
-    }
-  };
-
-  useEffect(() => {
-    changeBackgroundColor();
-
-    window.addEventListener("scroll", changeBackgroundColor);
-  });
   return (
     <div className="sticky-top">
-      <Navbar
-        variant="dark"
-        expand="lg"
-        className={changeColor ? "color-active" : ""}
-      >
+      <Navbar variant="dark" expand="lg" className="color-active">
         <Container>
           <Navbar.Brand href="#home" className="fw-bold fs-4">
             RAI DEV.
@@ -39,6 +20,9 @@ const NavbarComp = () => {
               </Nav.Link>
               <Nav.Link href="#services" className="mx-2">
                 Services
+              </Nav.Link>
+              <Nav.Link href="#ourteam" className="mx-2">
+                Our Team
               </Nav.Link>
               <Nav.Link href="#faq" className="mx-2">
                 FAQ

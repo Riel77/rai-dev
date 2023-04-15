@@ -5,6 +5,8 @@ import ServiceComp from "./components/ServicesComp";
 import FaqComp from "./components/FaqComp";
 import FooterComp from "./components/FooterComp";
 import OurTeam from "./components/OurTeam";
+import Content from "./components/ContentComp";
+import KontakKami from "./components/KontakKami";
 
 function App() {
   return (
@@ -13,10 +15,12 @@ function App() {
 
       {/* Content */}
       <NavbarComp />
+      <Content />
       <GalleryComp />
       <ServiceComp />
       <OurTeam />
       <FaqComp />
+      <KontakKami />
       {/* Content */}
 
       <FooterComp />

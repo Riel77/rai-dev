@@ -6,7 +6,10 @@ import Anon from "../assets/img/team/Anon.jpg";
 
 const OurTeam = () => {
   return (
-    <div className="OurTeam align-items-center mx-auto justify-content-center">
+    <div
+      className="OurTeam align-items-center mx-auto justify-content-center"
+      id="ourteam"
+    >
       <Container>
         <Row className="mb-5">
           <Col>
@@ -32,7 +35,7 @@ const OurTeam = () => {
         <Row className="row-cols-md-2 row-cols-1 d-flex justify-content-center">
           <Col className="text-center d-flex justify-content-center mb-2">
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={Anon} className="roundedCircle" />
+              <Card.Img variant="top" src={Anon} />
               <Card.Body>
                 <Card.Title>Ade Muslim</Card.Title>
                 <Card.Header>
@@ -49,7 +52,7 @@ const OurTeam = () => {
           </Col>
           <Col className="text-center d-flex justify-content-center mb-2">
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={Anon} className="roundedCircle" />
+              <Card.Img variant="top" src={Anon} />
               <Card.Body>
                 <Card.Title>Muhammad Ilham Dwi</Card.Title>
                 <Card.Header>
