@@ -33,6 +33,7 @@
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 100px;
+  height: 560px;
 }
 
 .hero h1 {
@@ -47,6 +48,11 @@
 
 .gallery img {
   height: 220px;
+}
+
+.ourteam .card-img,
+.card-img-top {
+  height: 240px;
 }
 
 .faq {

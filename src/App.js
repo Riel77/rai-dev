@@ -4,6 +4,7 @@ import GalleryComp from "./components/GalleryComp";
 import ServiceComp from "./components/ServicesComp";
 import FaqComp from "./components/FaqComp";
 import FooterComp from "./components/FooterComp";
+import OurTeam from "./components/OurTeam";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <NavbarComp />
       <GalleryComp />
       <ServiceComp />
+      <OurTeam />
       <FaqComp />
       {/* Content */}
 
