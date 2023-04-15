@@ -7,13 +7,15 @@ class Counter extends Component {
   };
 
   async componentDidMount() {
-    const res = await db.query("SELECT count FROM visitors WHERE id = 1");
+    const res = await db.query("SELECT count FROM visitor WHERE countID = 1");
     this.setState({ count: res.rows[0].count });
   }
 
   handleClick = async () => {
     const newCount = this.state.count + 1;
-    await db.query("UPDATE visitors SET count = $1 WHERE id = 1", [newCount]);
+    await db.query("UPDATE visitors SET count = $1 WHERE countID = 1", [
+      newCount,
+    ]);
     this.setState({ count: newCount });
   };
 

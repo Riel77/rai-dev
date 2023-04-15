@@ -5,7 +5,7 @@ const ContentComp = () => {
     <div className="konten min-vh-100 d-flex align-items-center justify-content-center">
       <Container>
         <Row>
-          <Col>
+          <Col data-aos="fade-up">
             <h2>Jasa Web Design RAI Dev.</h2>
             <p>
               RAI Dev adalah startup bisnis dalam bidang pembuatan UI/UX design,

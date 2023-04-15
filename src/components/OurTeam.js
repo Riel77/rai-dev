@@ -18,7 +18,7 @@ const OurTeam = () => {
         </Row>
         <Row className="row-cols-1 d-flex justify-content-center">
           <Col className="text-center d-flex justify-content-center mb-2">
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem" }} data-aos="fade-up">
               <Card.Img variant="top" src={Owner} />
               <Card.Body>
                 <Card.Title>Muhamad Ridwan</Card.Title>
@@ -34,7 +34,7 @@ const OurTeam = () => {
         </Row>
         <Row className="row-cols-md-2 row-cols-1 d-flex justify-content-center">
           <Col className="text-center d-flex justify-content-center mb-2">
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem" }} data-aos="fade-up">
               <Card.Img variant="top" src={Anon} />
               <Card.Body>
                 <Card.Title>Ade Muslim</Card.Title>
@@ -51,7 +51,7 @@ const OurTeam = () => {
             </Card>
           </Col>
           <Col className="text-center d-flex justify-content-center mb-2">
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem" }} data-aos="fade-up">
               <Card.Img variant="top" src={Anon} />
               <Card.Body>
                 <Card.Title>Muhammad Ilham Dwi</Card.Title>
