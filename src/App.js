@@ -18,7 +18,7 @@ function App() {
     getMerchant();
   }, []);
   function getMerchant() {
-    fetch("http://localhost:3001")
+    fetch("https://seashell-app-cmoio.ondigitalocean.app:80")
       .then((response) => {
         return response.text();
       })
@@ -29,7 +29,7 @@ function App() {
   function createMerchant() {
     let CountID = prompt("Enter CountID");
     let Count = prompt("Enter count");
-    fetch("http://localhost:3001/merchants", {
+    fetch("https://seashell-app-cmoio.ondigitalocean.app:80/merchants", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -46,9 +46,12 @@ function App() {
   }
   function deleteMerchant() {
     let CountID = prompt("Enter merchant CountID");
-    fetch(`http://localhost:3001/merchants/${CountID}`, {
-      method: "DELETE",
-    })
+    fetch(
+      `https://seashell-app-cmoio.ondigitalocean.app/merchants/${CountID}`,
+      {
+        method: "DELETE",
+      }
+    )
       .then((response) => {
         return response.text();
       })
