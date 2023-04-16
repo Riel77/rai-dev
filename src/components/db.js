@@ -8,4 +8,4 @@ const pool = new Pool({
   port: 25060,
 });
 
-module.exports = pool;
+export default pool;

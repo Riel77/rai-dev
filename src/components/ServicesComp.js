@@ -27,7 +27,7 @@ const servicesComp = () => {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <i class="fa-solid fa-coins fs-2 mb-4"></i>
+            <i className="fa-solid fa-coins fs-2 mb-4"></i>
             <h5 className="fw-bold">Harga Terjangkau</h5>
             <p>
               Harga terjangkau bagi startup-startup baru yang menginginkan
@@ -39,7 +39,7 @@ const servicesComp = () => {
             data-aos="fade-up"
             data-aos-delay="600"
           >
-            <i class="fa-solid fa-thumbs-up fs-2 mb-4"></i>
+            <i className="fa-solid fa-thumbs-up fs-2 mb-4"></i>
             <h5 className="fw-bold">Fasilitas Terbaik</h5>
             <p>
               Menggunakan teknologi terkini dalam proses pembuatan sehingga
@@ -52,7 +52,7 @@ const servicesComp = () => {
             data-aos="fade-up"
             data-aos-delay="800"
           >
-            <i class="fa-sharp fa-solid fa-shield-halved fs-2 mb-4"></i>
+            <i className="fa-sharp fa-solid fa-shield-halved fs-2 mb-4"></i>
             <h5 className="fw-bold">Tersertifikasi</h5>
             <p>
               Staff dan programmer kami sudah memiliki sertikasi keahlian dalam
