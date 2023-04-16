@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3001;
+const port = 80;
 
 const merchant_model = require("./merchant_model");
 
@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(function (req, res, next) {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://seashell-app-cmoio.ondigitalocean.app:3000"
+    "https://seashell-app-cmoio.ondigitalocean.app:80"
   );
   res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS");
   res.setHeader(
