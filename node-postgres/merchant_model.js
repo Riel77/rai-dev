@@ -5,6 +5,7 @@ const pool = new Pool({
   database: "counter",
   password: "AVNS_-9sh-ZnQrYT-FlRgtYx",
   port: 25060,
+  sslmode: "require",
 });
 
 const getMerchants = () => {
@@ -13,7 +14,7 @@ const getMerchants = () => {
       if (error) {
         reject(error);
       }
-      console.log(results.rows);
+      resolve(results.rows);
     });
   });
 };
