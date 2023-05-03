@@ -7,7 +7,6 @@ import FooterComp from "./components/FooterComp";
 import OurTeam from "./components/OurTeam";
 import Content from "./components/ContentComp";
 import KontakKami from "./components/KontakKami";
-import Contoh from "./components/contoh";
 // import Counter from "./components/Counter";
 
 import React, { useState, useEffect } from "react";
@@ -18,7 +17,7 @@ function App() {
     getMerchant();
   }, []);
   function getMerchant() {
-    fetch("https://goldfish-app-jjp9x.ondigitalocean.app:80")
+    fetch("https://goldfish-app-jjp9x.ondigitalocean.app")
       .then((response) => {
         return response.text();
       })
@@ -29,7 +28,7 @@ function App() {
   function createMerchant() {
     let CountID = prompt("Enter CountID");
     let Count = prompt("Enter count");
-    fetch("https://goldfish-app-jjp9x.ondigitalocean.app:80/merchants", {
+    fetch("https://goldfish-app-jjp9x.ondigitalocean.app/merchants", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
