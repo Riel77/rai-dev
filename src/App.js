@@ -76,7 +76,6 @@ function App() {
       <ServiceComp />
       <OurTeam />
       <FaqComp />
-      <Contoh />
       <KontakKami />
       {/* <Counter /> */}
       {/* Content */}
