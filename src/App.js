@@ -1,7 +1,7 @@
 import NavbarComp from "./components/NavbarComp";
 import HeroComp from "./components/HeroComp";
 import GalleryComp from "./components/GalleryComp";
-import ServiceComp from "./components/ServicesComp";
+import ServiceComp from "./components/servicesComp";
 import FaqComp from "./components/FaqComp";
 import FooterComp from "./components/FooterComp";
 import OurTeam from "./components/OurTeam";
@@ -18,7 +18,7 @@ function App() {
     getMerchant();
   }, []);
   function getMerchant() {
-    fetch("https://seashell-app-cmoio.ondigitalocean.app:80")
+    fetch("https://goldfish-app-jjp9x.ondigitalocean.app:80")
       .then((response) => {
         return response.text();
       })
@@ -29,7 +29,7 @@ function App() {
   function createMerchant() {
     let CountID = prompt("Enter CountID");
     let Count = prompt("Enter count");
-    fetch("https://seashell-app-cmoio.ondigitalocean.app:80/merchants", {
+    fetch("https://goldfish-app-jjp9x.ondigitalocean.app:80/merchants", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -47,7 +47,7 @@ function App() {
   function deleteMerchant() {
     let CountID = prompt("Enter merchant CountID");
     fetch(
-      `https://seashell-app-cmoio.ondigitalocean.app/merchants/${CountID}`,
+      `https://goldfish-app-jjp9x.ondigitalocean.app/merchants/${CountID}`,
       {
         method: "DELETE",
       }
