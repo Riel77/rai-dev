@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(function (req, res, next) {
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://goldfish-app-jjp9x.ondigitalocean.app:80"
+    "https://goldfish-app-jjp9x.ondigitalocean.app:80/443/9000"
   );
   res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS");
   res.setHeader(
